@@ -44,24 +44,16 @@ body {
     position: relative;
 }
 
-.hover:hover {
-    background-color: rgb(173, 171, 189) !important;
-    color: white;
-    text-transform: uppercase;
-    margin-bottom: -50px;
-    opacity: 80%;
-}
 
 
-.hover:hover {
-    background-color: slateblue;
-}
 
-.features {
+
+
+/* .features {
     background-color: slateblue;
     color: white;
     padding: 5px 0;
-}
+} */
 
 .card-header {
     background: rgb(67, 33, 91);
@@ -96,6 +88,7 @@ section {
     color: white;
     align-items: center;
 }
+
 
 
 
@@ -170,5 +163,20 @@ section {
         margin-bottom: -8px;
     }
 
+    .hover:hover {
+        position: relative;
+        background-color: rgb(138, 130, 196) !important;
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 3px;
+        opacity: 80%;
+        max-height: 100%;
+        /* padding-bottom: 5px;
+        margin-bottom: -8px; */
+    }
+
+    .bayangan {
+        box-shadow: 3px 7px 7px slateblue !important;
+    }
 
 }
